@@ -34,13 +34,20 @@ class MainActivity : ComponentActivity() {
         val age: Int = 24
         val PI: Double = 3.14
         val likeProgramming: Boolean = true
-        val character: Char = 'A'
+        val character: Char = 'E'
+
+        println("name: $name, age: $age, PI: $PI, likeProgramming: $likeProgramming, character: $character")
 
         // Create and manipulate an array or a collection (List, Set, Map).
         val colors = arrayOf("Pink", "White", "Black")
         val fruits = listOf("Apple", "Banana", "Cherry")
         val numbers = setOf(1, 2, 3)
         val map = mapOf(1 to "One", 2 to "Two" , 3 to "Three")
+
+        for (color in colors) {
+            println(color)
+        }
+        println("fruits: $fruits, number: $numbers, map: $map")
 
         // Implement control flow using if-else and when expressions.
         if (age >= 18) {
@@ -60,15 +67,16 @@ class MainActivity : ComponentActivity() {
             7 -> "Saturday"
             else -> "Invalid"
         }
+        println("Today number is $today and it is $result")
 
         // Write a function and use a lambda expression.
         fun sum(x: Int, y: Int): Int {
             return x + y
         }
+        println(sum(5,2))
 
         val sub = { a: Int , b: Int -> a - b}
-        val sub_result = sum(10, 19)
-
+        println(sum(10, 19))
 
     }
 }
