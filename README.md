@@ -13,4 +13,5 @@ This Task is the Second Class Task of the **‪Full-Stack Android Training**, it
 4. Write a function and use a lambda expression.
 
 ## Screenshot 📸
-Here’s a preview of how the App looks:
+
+![image](https://github.com/user-attachments/assets/fc20f95b-7ced-461a-8e64-b92fc3713631)
